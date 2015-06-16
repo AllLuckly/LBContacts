@@ -17,4 +17,4 @@
 ```
 
 更多使用方法请参考Demo
-![_config.yml]({{ site.baseurl }}/https://github.com/AllLuckly/LBContacts/blob/master/Untitled.gif?raw=true)
+https://github.com/AllLuckly/LBContacts/blob/master/Untitled.gif?raw=true
