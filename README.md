@@ -17,4 +17,5 @@
 ```
 
 更多使用方法请参考Demo
-https://github.com/AllLuckly/LBContacts/blob/master/Untitled.gif?raw=true
+![(LBContacts)](https://github.com/AllLuckly/LBContacts/blob/master/Untitled.gif?raw=true)
+
