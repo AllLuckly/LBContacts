@@ -1,7 +1,10 @@
 # LBContacts
 
 获取通讯录的联系人以及发短信给联系人。
-
+必须导入的依赖库<br>
+`AddressBookUI.framework`<br>
+`AddressBook.framework`<br>
+`MessageUI.framework`<br>
 ```
 
 @property (nonatomic, retain) NSString *name;//联系人姓名
