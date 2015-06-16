@@ -16,6 +16,6 @@
 
 ```
 
-更多使用方法请参考Demo <br>下面是模拟机上的操作，真机才能发短信哦
+更多使用方法请参考Demo，下面是模拟机上的操作，真机才能发短信哦 <br>
 ![(LBContacts)](https://github.com/AllLuckly/LBContacts/blob/master/Untitled.gif?raw=true)
 
