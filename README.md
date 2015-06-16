@@ -18,8 +18,10 @@
 -(void)sendSmsMessageWithPhoneNumber:(NSString *)phoneNumber
 
 ```
-> [点击此--->更多开发技巧](http://allluckly.cf/) 
+> [点击此--->更多开发技巧](http://allluckly.cf/) <br>
 更多使用方法请参考Demo，下面是模拟机上的操作，真机才能发短信哦 <br>
+<br>
+<br>
 ![(LBContacts)](https://github.com/AllLuckly/LBContacts/blob/master/Untitled.gif?raw=true)
 
 
