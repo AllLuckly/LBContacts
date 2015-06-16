@@ -1,8 +1,8 @@
 //
 //  LBContacts_VC.m
 //  LBContacts
-//
-//  Created by fhkj on 15/6/15.
+//  欢迎探讨交流：http://allluckly.cf/
+//  个人博客地址：http://allluckly.cf/
 //  Copyright (c) 2015年 Bison. All rights reserved.
 //
 
