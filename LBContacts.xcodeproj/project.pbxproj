@@ -12,6 +12,11 @@
 		4970E2FE1B2ED98B00E479E8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4970E2FD1B2ED98B00E479E8 /* Images.xcassets */; };
 		4970E3011B2ED98B00E479E8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4970E2FF1B2ED98B00E479E8 /* LaunchScreen.xib */; };
 		4970E30D1B2ED98B00E479E8 /* LBContactsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4970E30C1B2ED98B00E479E8 /* LBContactsTests.m */; };
+		4970E3181B2ED9BB00E479E8 /* LBContacts_VC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4970E3171B2ED9BB00E479E8 /* LBContacts_VC.m */; };
+		4970E31A1B2EDA4A00E479E8 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4970E3191B2EDA4A00E479E8 /* MessageUI.framework */; };
+		4970E31C1B2EDA5600E479E8 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4970E31B1B2EDA5600E479E8 /* AddressBook.framework */; };
+		4970E31E1B2EDA6B00E479E8 /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4970E31D1B2EDA6B00E479E8 /* AddressBookUI.framework */; };
+		4970E3221B2EDDCB00E479E8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4970E3211B2EDDCB00E479E8 /* ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +40,13 @@
 		4970E3061B2ED98B00E479E8 /* LBContactsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LBContactsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4970E30B1B2ED98B00E479E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4970E30C1B2ED98B00E479E8 /* LBContactsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LBContactsTests.m; sourceTree = "<group>"; };
+		4970E3161B2ED9BB00E479E8 /* LBContacts_VC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBContacts_VC.h; sourceTree = "<group>"; };
+		4970E3171B2ED9BB00E479E8 /* LBContacts_VC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBContacts_VC.m; sourceTree = "<group>"; };
+		4970E3191B2EDA4A00E479E8 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		4970E31B1B2EDA5600E479E8 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		4970E31D1B2EDA6B00E479E8 /* AddressBookUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBookUI.framework; path = System/Library/Frameworks/AddressBookUI.framework; sourceTree = SDKROOT; };
+		4970E3201B2EDDCB00E479E8 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4970E3211B2EDDCB00E479E8 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +54,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4970E31E1B2EDA6B00E479E8 /* AddressBookUI.framework in Frameworks */,
+				4970E31C1B2EDA5600E479E8 /* AddressBook.framework in Frameworks */,
+				4970E31A1B2EDA4A00E479E8 /* MessageUI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,6 +73,9 @@
 		4970E2EA1B2ED98B00E479E8 = {
 			isa = PBXGroup;
 			children = (
+				4970E31D1B2EDA6B00E479E8 /* AddressBookUI.framework */,
+				4970E31B1B2EDA5600E479E8 /* AddressBook.framework */,
+				4970E3191B2EDA4A00E479E8 /* MessageUI.framework */,
 				4970E2F51B2ED98B00E479E8 /* LBContacts */,
 				4970E3091B2ED98B00E479E8 /* LBContactsTests */,
 				4970E2F41B2ED98B00E479E8 /* Products */,
@@ -76,8 +94,11 @@
 		4970E2F51B2ED98B00E479E8 /* LBContacts */ = {
 			isa = PBXGroup;
 			children = (
+				4970E31F1B2EDD2400E479E8 /* LBContacts_VC */,
 				4970E2FA1B2ED98B00E479E8 /* AppDelegate.h */,
 				4970E2FB1B2ED98B00E479E8 /* AppDelegate.m */,
+				4970E3201B2EDDCB00E479E8 /* ViewController.h */,
+				4970E3211B2EDDCB00E479E8 /* ViewController.m */,
 				4970E2FD1B2ED98B00E479E8 /* Images.xcassets */,
 				4970E2FF1B2ED98B00E479E8 /* LaunchScreen.xib */,
 				4970E2F61B2ED98B00E479E8 /* Supporting Files */,
@@ -109,6 +130,15 @@
 				4970E30B1B2ED98B00E479E8 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4970E31F1B2EDD2400E479E8 /* LBContacts_VC */ = {
+			isa = PBXGroup;
+			children = (
+				4970E3161B2ED9BB00E479E8 /* LBContacts_VC.h */,
+				4970E3171B2ED9BB00E479E8 /* LBContacts_VC.m */,
+			);
+			name = LBContacts_VC;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -211,6 +241,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				4970E2FC1B2ED98B00E479E8 /* AppDelegate.m in Sources */,
+				4970E3181B2ED9BB00E479E8 /* LBContacts_VC.m in Sources */,
+				4970E3221B2EDDCB00E479E8 /* ViewController.m in Sources */,
 				4970E2F91B2ED98B00E479E8 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
