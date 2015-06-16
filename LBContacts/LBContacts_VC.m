@@ -69,7 +69,7 @@
     
     //通讯录中人数
     CFIndex nPeople = ABAddressBookGetPersonCount(addressBooks);
-    
+    CFRelease(addressBooks);
     //循环，获取每个人的个人信息
     for (NSInteger i = 0; i < nPeople; i++)
     {
@@ -105,7 +105,7 @@
             ABMultiValueRef valuesRef = ABRecordCopyValue(person, property);
             NSInteger valuesCount = 0;
             if (valuesRef != nil) valuesCount = ABMultiValueGetCount(valuesRef);
-            
+            if (valuesRef)
             if (valuesCount == 0) {
                 CFRelease(valuesRef);
                 continue;
@@ -135,7 +135,7 @@
         if (abFullName) CFRelease(abFullName);
         
             }
-    
+    CFRelease(allPeople);
     return _personArray;
 }
 #pragma mark - 短信
