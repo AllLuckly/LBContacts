@@ -17,3 +17,4 @@
 ```
 
 更多使用方法请参考Demo
+![_config.yml]({{ site.baseurl }}/Untitled.gif)
